@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="stylesheet" href="./css/responsivo.css">
+  <script type="text/javascript" src="js/script.js" defer></script>
+  <title>Portfólio: Projetos</title>
+
+  <header class="menu">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#" style="color: #b3baff; ">Portfólio</a></li>
+      <li><a href="./experiencias.html">Experiências</a></li>
+      <li><a href="./contatos.html">Contatos</a></li>
+    </ul>
+  </header>
+
+<body> <div class="menu-lateral">
+  <img src="./imagens/backward.png" alt="esconder menu" class="esconder-menu" onclick="mostraMenu()">
+  <img src="./imagens/backward.png" alt="mostrar menu" class="mostrar-menu" onclick="escondeMenu()">
+  <h3>Menu</h3>
+  <a href="#universidade">Projetos Acadêmicos</a><br>
+  <a href="#pessoal">Projetos Pessoais</a><br>
+
+</div>
+  <div class="portfolio">
+   
+    <div class="texto-lateral">
+      <h2>Nesta página vocês podem encontrar alguns de meus projetos:</h2>
+      <h3 id="universidade"> Projetos Acadêmicos</h3>
+      <h4 id="aps-etanol">APS - Etanol</h4>
+      <div class="projeto-item">
+        <p>Meu primeiro projeto no qual eu realizei em uma atividade prática supervisionada no 1° semestre universidade,
+          aonde eu deveria criar uma página utilizando HTML e CSS de acordo com o tema do trabalho (no caso, Etanol).
+        </p>
+        <img class="imagem-portfolio" src="./imagens/etanol.png" alt="Etanol">
+      </div>
+      <h4 id="aps-java">APS - Sistema Java</h4>
+      <div class="projeto-item">
+        <p>Meu primeiro projeto em Back-End, aonde eu desenvolvi um sistema com a linguagem de programação Java, no qual
+          eu insiro dados de várias cidades e de uma determinada doença, além de adicionar o número de doentes e mortos
+          e definir se a doença está controlada, é um surto ou uma pandemia.</p>
+        <img src="./imagens/sistema.png" alt="Sistema Java">
+      </div>
+      <h4 id="aps-agendamento">APS - Sistema de Agendamentos</h4>
+      <div class="projeto-item">
+        <p>Outro projeto acadêmico que eu fiz, um sistema de login de uma rede de atendimentos médicos que além do
+          Front-End, também possui Back-end em sua estrutura, com as linguagens de programação MySql e PHP.</p>
+        <img class="imagem-portfolio" src="./imagens/health-app.png" alt="Health-App">
+      </div>
+      <h3 id="pessoal">Projetos Pessoais</h3>
+      <h4 id="pessoal-salao">Salão da Te</h4>
+      <div class="projeto-item">
+        <p>Projeto de um site de salão que eu fiz para praticar, contendo 2 páginas, uma mostrando informações como
+          endereço, horários, portfólio, etc. Enquanto outra contém uma área para agendar horários.</p>
+        <img class="imagem-portfolio" src="./imagens/salão da te.png" alt="Salão da Te">
+      </div>
+      <h4 id="pessoal-moedas">Conversor de Moedas</h4>
+      <div class="projeto-item">
+        <p>Projeto de um sistema conversor de moedas que eu fiz para praticar JavaScript, o usuário digita o valor em reais e o sistema converte para moedas como Dólar, Euro, etc.</p>
+        <img class="imagem-portfolio" src="./imagens/converter moedas.PNG" alt="Converter Moedas">
+      </div>
+    </div>
+  </div>
+  </div>
+  <img class="mostrar-menu-responsivo" src="./imagens/icons8-menu-quadrado-2-50.png" alt="menu-quadrado por Icons8" onclick="MenuResponsivo()">
+</body>
+
+</html>
+
+<footer> &copy;Lucas da Silva Sousa </footer>

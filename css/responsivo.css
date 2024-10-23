@@ -1,0 +1,153 @@
+@media (max-width: 600px) {
+
+    html {
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+
+    h2 {
+        font-size: 19px;
+        line-height: 1em;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 1.5em;
+    }
+
+    .mostrar-menu-responsivo {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 1rem .5rem;
+        z-index: 1;
+    }
+
+    .mostrar-menu-responsivo:hover {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        height: 100%;
+        align-items: flex-start;
+        top: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        top: 4rem;
+        text-align: justify;
+    }
+
+    .menu li {
+        margin: 4% 0;
+    }
+
+    .menu a:hover,
+    .menu li:hover {
+        color: #6e7dfd;
+        background-color: #464646;
+    }
+
+    .sobre {
+        margin: 1rem;
+        padding: 2rem 0;
+        flex-direction: column-reverse;
+        font-weight: bold;
+    }
+
+    .sobre-imagem img {
+        width: 200px;
+        max-width: 200px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 100%;
+        margin-bottom: 2em;
+    }
+
+    .sobre-texto {
+        text-align: center;
+    }
+
+    .portfolio {
+        padding: 0;
+        margin: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .portfolio p {
+        margin: .5em 0;
+    }
+
+    .projeto-item:nth-of-type(odd),
+    .projeto-item:nth-of-type(even) {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .projeto-item img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .menu-lateral {
+        display: none;
+    }
+
+    .sobre-contatos {
+        margin: 0;
+        padding: 0;
+        font-weight: lighter;
+        flex-direction: row;
+        background-color: #ffffff00;
+    }
+
+    .contato-itens {
+        display: flex;
+        padding: 1% .5rem;
+        flex-direction: row;
+        align-items: center;
+        text-indent: 30px;
+        justify-content: flex-start;
+    }
+
+    .contato-itens img {
+        max-width: 25px;
+        justify-content: center;
+    }
+
+    .contato {
+        justify-content: flex-start;
+        margin: .5em 0;
+        padding: 3.5em 0 9em 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .contato p {
+        padding: .5em 0;
+        text-indent: .5em;
+    }
+
+
+    footer {
+        text-indent: .5em;
+        margin-top: 3em;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}

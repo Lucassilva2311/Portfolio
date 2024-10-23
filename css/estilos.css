@@ -1,0 +1,246 @@
+html{
+    font-family: sans-serif;
+    color: #2c2c50;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+body{
+    background-image: url(../imagens/wallpaper.jpg);
+}
+
+p, a, .menu li{
+    font-size: 18px;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    line-height: 2em;
+}
+
+.menu, .menu ul, footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /*background-color: #464646;*/
+    background-color: #464646;
+    z-index: 1;
+}
+
+.menu li, .menu a{
+    justify-content: space-evenly;
+    padding: 5px 20px;
+}
+
+
+.menu li:hover{
+    cursor: pointer;
+    background-color: #6e7dfd;
+}
+.menu-lateral a:hover{
+    text-decoration-line: underline;
+}
+
+.mostrar-menu{
+    display: none;
+    transform: scaleX(-1);
+}
+
+.esconder-menu{
+    display: block;
+}
+
+.esconder-menu, .mostrar-menu{
+    max-width: 20px;
+    background-color: #f3f3f315;
+    padding: 100% .2em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.esconder-menu:hover, .mostrar-menu:hover{
+    cursor: pointer;
+    background-color: #f3f3f324;
+}
+
+.menu a, .menu li, .menu a:visited, .menu li:visited{
+    color: white;
+}
+
+.sobre img{
+    max-width: 200px;
+}
+
+.sobre, .contato, .portfolio, .sobre-contatos{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3
+}
+
+.sobre, .sobre-contatos{
+    flex-direction: row;
+    padding: 10%;
+    margin: 5% 15%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contato{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lista li{
+    margin-left: 30px;
+    list-style-type: disc;
+}
+
+.contato{
+    height: 320px;
+    margin: 0;
+}
+
+.contato-itens{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    text-indent: 30px;
+}
+
+.contato img{
+    max-width: 30px;
+}
+
+.contato-imagem{
+    min-height: 300px; 
+    min-width: 300px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5% 2%;
+    margin: 5% 1% 5% 1% ; /*top right bottom left*/
+    float: right;
+    width: 70%;
+    background-color: #f3f3f3;
+}
+
+.texto-lateral{
+    flex-direction: column;
+    width: 90%;
+    padding-left: 5%;
+}
+
+.projeto-item, .texto-lateral{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: .5em;
+    line-height: 1.5em;
+}
+
+.texto-lateral li{
+    list-style-type: disc;
+}
+
+.portfolio p{
+    margin: 0 2em;
+}
+
+.imagem-portfolio{
+    width: 60%;
+    height: 60%;
+    min-width: 60%;
+    min-height: 60%;
+}
+
+.projeto-item:nth-of-type(odd){
+    flex-direction: row;
+}
+
+.projeto-item:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+.menu-lateral{
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    top: 0;
+    color: white;
+    /*background-color: #7b7b7b;*/
+    background-color: #464646;
+    padding-top: 4rem;
+    padding-left: 1.5em;
+    line-height: 2.5em;
+}
+
+.menu-lateral h3{
+    text-align: justify;
+}
+
+.menu-lateral a, .menu-lateral a:visited{
+    color: white;
+}
+
+.sobre-texto{
+    margin: 0 5%;
+}
+
+.sobre-texto h1{
+    line-height: 1em;
+    text-align: justify;
+}
+
+.botao{
+    background-color: #2c2c50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.botao:hover{
+    background-color: #5b5ba3;
+    cursor: pointer;
+}
+
+footer{
+    padding: .8em 0;
+    bottom: 0;
+    width: 100%;
+    text-indent: 2em;
+}
