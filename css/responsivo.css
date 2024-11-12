@@ -6,7 +6,7 @@
         hyphens: auto;
     }
 
-    h1, h3, h4{
+    h3, h4{
         font-weight: normal;
         line-height: 1.5em;
     }
@@ -136,12 +136,16 @@
         padding: 3.5em 0 9em 0;
         position: absolute;
         top: 0;
-        width: 100%;
     }
 
     .contato p {
+        font-weight: bold;
         padding: .5em 0;
         text-indent: .5em;
+    }
+
+    .contato h2{
+        font-size: 25px;
     }
 
 
