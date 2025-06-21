@@ -11,7 +11,7 @@ body{
     background-image: url(../imagens/wallpaper.jpg);
 }
 
-p, a, .menu li{
+p{
     font-size: 18px;
 }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4{
 }
 
 .lista li{
-    margin-left: 30px;
+    margin-left: 4em;
     list-style-type: disc;
 }
 
@@ -138,7 +138,7 @@ h1, h2, h3, h4{
     text-indent: 30px;
 }
 
-.contato img{
+.contato img, .tec-itens img{
     max-width: 30px;
 }
 
@@ -158,6 +158,21 @@ h1, h2, h3, h4{
     background-color: #f3f3f3;
 }
 
+.tecnologias{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tec-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+}
+
 .texto-lateral{
     flex-direction: column;
     width: 90%;
@@ -167,14 +182,27 @@ h1, h2, h3, h4{
 .projeto-item, .texto-lateral{
     display: flex;
     align-items: center;
-    padding: 2rem;
     margin: .5em;
     line-height: 1.5em;
+}
+
+.projeto-item{
+    border-radius: 5px;
+    background-color: #E3E3E3;
+}
+
+.projeto-item:nth-of-type(odd){
+    flex-direction: row-reverse;
+}
+
+.projeto-item:nth-of-type(even){
+    flex-direction: row;
 }
 
 .texto-lateral li{
     list-style-type: disc;
 }
+
 
 .portfolio p{
     margin: 0 2em;
@@ -182,17 +210,8 @@ h1, h2, h3, h4{
 
 .imagem-portfolio{
     width: 60%;
-    height: 60%;
-    min-width: 60%;
-    min-height: 60%;
-}
-
-.projeto-item:nth-of-type(odd){
-    flex-direction: row;
-}
-
-.projeto-item:nth-of-type(even){
-    flex-direction: row-reverse;
+    height: 40%;
+    border-radius: 5px;
 }
 
 .menu-lateral{
@@ -201,7 +220,6 @@ h1, h2, h3, h4{
     height: 100%;
     top: 0;
     color: white;
-    /*background-color: #7b7b7b;*/
     background-color: #464646;
     padding-top: 4rem;
     padding-left: 1.5em;
@@ -220,9 +238,13 @@ h1, h2, h3, h4{
     margin: 0 5%;
 }
 
-.sobre-texto h1{
+.sobre-texto h1, p{
     line-height: 1em;
     text-align: justify;
+}
+
+.sobre-texto p{
+    font-size: 25px;
 }
 
 .botao{

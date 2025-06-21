@@ -2,7 +2,6 @@ const esconde = document.querySelector('.esconder-menu')
 const mostra = document.querySelector('.mostrar-menu')
 const menuLateral = document.querySelector('.menu-lateral')
 const portfolio = document.querySelector('.portfolio')
-const experiencia = document.querySelector('.experiencia')
 const mostrarResponsivo = document.querySelector('.mostrar-menu-responsivo')
 
 

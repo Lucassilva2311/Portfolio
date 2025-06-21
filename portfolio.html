@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="./css/estilos.css" />
   <link rel="stylesheet" href="./css/responsivo.css">
   <script type="text/javascript" src="js/script.js" defer></script>
-  <link rel="icon" href="./imagens/vecteezy_portfolio-icon.jpg" alt="icone por vecteezy">
   <title>Portfólio: Projetos</title>
 
   <header class="menu">
@@ -24,14 +23,52 @@
   <img src="./imagens/backward.png" alt="esconder menu" class="esconder-menu" onclick="mostraMenu()">
   <img src="./imagens/backward.png" alt="mostrar menu" class="mostrar-menu" onclick="escondeMenu()">
   <h3>Menu</h3>
+  <a href="#sobre-mim">Sobre Mim</a><br>
+  <a href="#tecnologias">Técnologias</a><br>
   <a href="#universidade">Projetos Acadêmicos</a><br>
   <a href="#pessoal">Projetos Pessoais</a><br>
+  <a href="#participacao">Participações em Projetos</a><br>
 
 </div>
   <div class="portfolio">
-   
     <div class="texto-lateral">
-      <h2>Nesta página vocês podem encontrar alguns de meus projetos:</h2> <br>
+      <h2 id="sobre-mim">Sobre Mim:</h2>
+      <p>Desenvolvedor Web com formação em Ciência da Computação e experiência prática em Front-End, utilizando 
+Javascript e React.js. Possuo conhecimento e interesse em desenvolvimento Back-End com Python, PHP e 
+proficiência em bancos de dados como MySQL, PostgreSQL e MariaDB. Busco aplicar minhas competências 
+técnicas e analíticas em desafios que impulsionam o meu crescimento na área de desenvolvimento web. </p>
+      
+
+      <h2 id="tecnologias">Linguagens e Tecnologias que eu tenho conhecimento:</h2>
+
+      <div class="tecnologias">
+      <div class="tec-itens">
+        <img src="./imagens/html5.png" alt="HTML5 por Iconfinder">
+        <p>HTML5</p>
+      </div>
+      <div class="tec-itens">
+        <img src="./imagens/css3.png" alt="CSS3 por Iconfinder">
+        <p>CSS3</p>
+      </div>
+      <div class="tec-itens">
+        <img src="./imagens/js.png" alt="JavaScript por Iconfinder">
+        <p>JavaScript</p>
+      </div>
+      <div class="tec-itens">
+        <img src="./imagens/react.png" alt="React por Iconfinder">
+        <p>React</p>
+      </div>
+      <div class="tec-itens">
+        <img src="./imagens/php.png" alt="PHP por Iconfinder">
+        <p>PHP</p>
+      </div>
+      <div class="tec-itens">
+        <img src="./imagens/mysql.png" alt="MySql por Iconfinder">
+        <p>MySql</p>
+      </div>
+      </div>
+
+      <h2>Abaixo vocês podem encontrar alguns de meus projetos:</h2> <br>
       <h3 id="universidade"> Projetos Acadêmicos</h3>
       <h4 id="aps-etanol">APS - Etanol</h4>
       <div class="projeto-item">
@@ -40,30 +77,23 @@
         </p>
         <img class="imagem-portfolio" src="./imagens/etanol.png" alt="Etanol">
       </div>
-      <h4 id="aps-java">APS - Sistema Java</h4>
-      <div class="projeto-item">
-        <p>Meu primeiro projeto em Back-End, aonde eu desenvolvi um sistema com a linguagem de programação Java, no qual
-          eu insiro dados de várias cidades e de uma determinada doença, além de adicionar o número de doentes e mortos
-          e definir se a doença está controlada, é um surto ou uma pandemia.</p>
-        <img src="./imagens/sistema.png" alt="Sistema Java">
-      </div>
-      <h4 id="aps-agendamento">APS - Sistema de Agendamentos</h4>
-      <div class="projeto-item">
-        <p>Outro projeto acadêmico que eu fiz, um sistema de login de uma rede de atendimentos médicos que além do
-          Front-End, também possui Back-end em sua estrutura, com as linguagens de programação MySql e PHP.</p>
-        <img class="imagem-portfolio" src="./imagens/health-app.png" alt="Health-App">
-      </div>
       <h3 id="pessoal">Projetos Pessoais</h3>
       <h4>Salão da Te</h4>
       <div class="projeto-item">
         <p>Projeto de um site de salão que eu fiz para praticar, contendo 2 páginas, uma mostrando informações como
           endereço, horários, portfólio, etc. Enquanto outra contém uma área para agendar horários, o projeto pode ser encontrado <a href="https://lucassilva2311.github.io/SalaoDaTe/">aqui</a>.</p>
-        <img class="imagem-portfolio" src="./imagens/salão da te.png" alt="Salão da Te">
+        <img class="imagem-portfolio" src="./imagens/salao-da-te.jpg" alt="Salão da Te">
       </div>
       <h4>Conversor de Moedas</h4>
       <div class="projeto-item">
         <p>Projeto de um sistema conversor de moedas que eu fiz para praticar JavaScript, o usuário digita o valor em reais e o sistema converte para moedas como Dólar por exemplo, o projeto pode ser encontrado <a href="https://lucassilva2311.github.io/ConverterMoedas/">aqui</a>.</p>
         <img class="imagem-portfolio" src="./imagens/converter moedas.PNG" alt="Converter Moedas">
+      </div>
+      <h3 id="participacao">Participações em Projetos</h3>
+      <h4>Gerenciador de Tarefas</h4>
+      <div class="projeto-item">
+        <p>Projeto de um gerenciador de tarefas, onde o usuário insere uma tarefa, define as datas de início e conclusão de determinada tarefa, altera seus status para pendente, executando ou concluído, o projeto pode ser encontrado <a href="https://github.com/Lucassilva2311/back-project-task">aqui</a>.</p>
+        <img class="imagem-portfolio" src="./imagens/task-manager.png" alt="Gerenciador de Tarefas">
       </div>
     </div>
   </div>
