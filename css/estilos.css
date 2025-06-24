@@ -245,6 +245,7 @@ h1, h2, h3, h4{
 .sobre-texto h1, p{
     line-height: 1em;
     text-align: justify;
+    font-weight: normal;
 }
 
 .sobre-texto p{
