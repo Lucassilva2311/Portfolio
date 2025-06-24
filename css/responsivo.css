@@ -65,11 +65,15 @@
         background-color: #464646;
     }
 
+    .sobre, .contato{
+        position: absolute;
+        top: 10%;
+    }
+
     .sobre {
         margin: .5rem;
         padding: 2rem 0;
         flex-direction: column-reverse;
-        font-weight: bold;
     }
 
     .sobre-imagem img {
@@ -145,14 +149,11 @@
 
     .contato {
         justify-content: flex-start;
-        margin: .5em 0;
+        width: 95%;
         padding: 3.5em 0 9em 0;
-        position: absolute;
-        top: 0;
     }
 
     .contato p {
-        font-weight: bold;
         padding: .5em 0;
         text-indent: .5em;
     }
