@@ -142,8 +142,15 @@ h1, h2, h3, h4{
     text-indent: 30px;
 }
 
-.contato img, .tec-itens img{
+.contato img, .tec-itens img, .idiomas img{
     max-width: 30px;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .contato-imagem{
