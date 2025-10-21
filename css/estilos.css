@@ -11,7 +11,7 @@ body{
     background-image: url(../imagens/wallpaper.jpg);
 }
 
-p{
+p, h5{
     font-size: 18px;
 }
 
@@ -148,9 +148,16 @@ h1, h2, h3, h4{
 
 .idiomas{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.idiomas-itens{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.5em;
+    padding-bottom: 1em;
 }
 
 .contato-imagem{
